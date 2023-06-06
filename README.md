@@ -15,7 +15,7 @@ The oreder they are created is random, therefore the following list is randomly 
 This table stores addition metadata or infromation related to comments on WordPress sites.</br>
 It is used to store supplementary data associated with individual comments.</br>
 It provides flexibility for storing additional information or custom fields for comments in WordPress.</br>
-It allows developers and site owners to extend the default comment functionality anmd store relevant data associated with comments.</br>
+It allows developers and site owners to extend the default comment functionality and store relevant data associated with comments.</br>
 
 The fields that are created into the table are:</br>
 <ins>meta_id</ins>: A unique identifier for each comment meta entry.</br>
