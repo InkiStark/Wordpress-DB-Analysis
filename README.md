@@ -126,29 +126,29 @@ Also stores information about media attachments, such as images, videos, or audi
 Can also store content related to custom post types, which are extensions of the default post and page functionality.
 
 The fields that are created into the table are:</br>
-<ins>ID</ins>: A unique identifier for each post or content entry.
-<ins>post_author</ins>: The user ID of the post author.
-<ins>post_date</ins>: The date and time when the post was created.
-<ins>post_date_gmt</ins>: The GMT/UTC date and time when the post was created.
-<ins>post_content</ins>: The content or text of the post.
-<ins>post_title</ins>: The title of the post.
-<ins>post_excerpt</ins>: An optional excerpt or summary of the post.
-<ins>post_status</ins>: The status of the post (e.g., published, draft, pending, private).
-<ins>comment_status</ins>: The comment status for the post (e.g., open, closed).
-<ins>ping_status</ins>: The pingback/trackback status for the post (e.g., open, closed).
-<ins>post_password</ins>: An optional password to protect the post.
-<ins>post_name</ins>: The post's slug or URL-friendly name.
-<ins>to_ping</ins>: A list of URLs to ping for the post.
-<ins>pinged</ins>: A list of URLs that have been pinged for the post.
-<ins>post_modified</ins>: The date and time when the post was last modified.
-<ins>post_modified_gmt</ins>: The GMT/UTC date and time when the post was last modified.
-<ins>post_content_filtered</ins>: The filtered version of the post content.
-<ins>post_parent</ins>: The ID of the parent post if the post is a child or attachment.
-<ins>guid</ins>: The globally unique identifier for the post.
-<ins>menu_order</ins>: The order of the post in relation to other posts.
-<ins>post_type</ins>: The type of content (e.g., post, page, attachment, custom post type).
-<ins>post_mime_type</ins>: The MIME type of the post attachment (for attachment posts).
-<ins>comment_count</ins>: The number of comments associated with the post.
+<ins>ID</ins>: A unique identifier for each post or content entry.</br>
+<ins>post_author</ins>: The user ID of the post author.</br>
+<ins>post_date</ins>: The date and time when the post was created.</br>
+<ins>post_date_gmt</ins>: The GMT/UTC date and time when the post was created.</br>
+<ins>post_content</ins>: The content or text of the post.</br>
+<ins>post_title</ins>: The title of the post.</br>
+<ins>post_excerpt</ins>: An optional excerpt or summary of the post.</br>
+<ins>post_status</ins>: The status of the post (e.g., published, draft, pending, private).</br>
+<ins>comment_status</ins>: The comment status for the post (e.g., open, closed).</br>
+<ins>ping_status</ins>: The pingback/trackback status for the post (e.g., open, closed).</br>
+<ins>post_password</ins>: An optional password to protect the post.</br>
+<ins>post_name</ins>: The post's slug or URL-friendly name.</br>
+<ins>to_ping</ins>: A list of URLs to ping for the post.</br>
+<ins>pinged</ins>: A list of URLs that have been pinged for the post.</br>
+<ins>post_modified</ins>: The date and time when the post was last modified.</br>
+<ins>post_modified_gmt</ins>: The GMT/UTC date and time when the post was last modified.</br>
+<ins>post_content_filtered</ins>: The filtered version of the post content.</br>
+<ins>post_parent</ins>: The ID of the parent post if the post is a child or attachment.</br>
+<ins>guid</ins>: The globally unique identifier for the post.</br>
+<ins>menu_order</ins>: The order of the post in relation to other posts.</br>
+<ins>post_type</ins>: The type of content (e.g., post, page, attachment, custom post type).</br>
+<ins>post_mime_type</ins>: The MIME type of the post attachment (for attachment posts).</br>
+<ins>comment_count</ins>: The number of comments associated with the post.</br>
 
 ### Relations to other tables:
 The wp_posts table is linked with wp_users table with the post_author which serves as a primary key,connecting each post to the user who created it.</br>
